@@ -1,10 +1,14 @@
 function equi(A) {
-  for (var i = 0; i < A.length; i++) {
-    var before = sum(A.slice(0, i));
-    var after = sum(A.slice(i + 1, A.length));
+  var i = 1;
+  var before = sum(A.slice(0, i));
+  var after = sum(A.slice(i+1, A.length));
+  while (i < A.length) {
     if (before == after) {
       return i;
     }
+    after -= A[i];
+    i++;
+    before += A[i];
   }
   return -1;
 }
