@@ -32,3 +32,12 @@ module.exports.right_weighted = [1, 2, 3, 4, 0, 10];
     return x.concat([0], x);
   })();
     // ANSWER: 10000000
+
+module.exports.extreme_negative_numbers = [-2147483648];
+  // ANSWER: 0
+module.exports.one_large = [500, 1, -2, -1, 2];
+  // ANSWER: 0
+module.exports.combinations_of_two = [-1, 0];
+  // ANSWER: 0
+module.exports.combinations_of_three = [-1, -1, 1];
+  // ANSWER: 0

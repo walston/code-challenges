@@ -1,5 +1,5 @@
 function equi(A) {
-  var i = 1;
+  var i = 0;
   var before = sum(A.slice(0, i));
   var after = sum(A.slice(i+1, A.length));
   while (i < A.length) {
