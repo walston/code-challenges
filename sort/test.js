@@ -1,4 +1,10 @@
-var sort = require('./quick.js');
+if (!process.argv[2]) {
+  console.log('Error: Expected script');
+  console.log('\tnode test.js');
+  console.log('\t             ^');
+  process.exit(1);
+}
+var sort = require('./' + process.argv[2]);
 var arrays = require('./arrays.js');
 
 function stopwatch(method) {

@@ -6,6 +6,7 @@ module.exports.power_of_10_1 = randomArray(10);
 module.exports.power_of_10_3 = randomArray(Math.pow(10, 3));
 module.exports.power_of_10_4 = randomArray(Math.pow(10, 4));
 module.exports.power_of_10_5 = randomArray(Math.pow(10, 5));
+module.exports.power_of_10_6 = randomArray(Math.pow(10, 6));
 
 function randomArray(highest) {
   console.log('Generating random list of', highest, ':');
