@@ -1,5 +1,5 @@
 if (!process.argv[2]) {
-  console.log('Error: Expected script');
+  console.log('Error: Expected script as second argument');
   console.log('\tnode test.js');
   console.log('\t             ^');
   process.exit(1);
