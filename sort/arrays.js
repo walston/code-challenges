@@ -1,5 +1,6 @@
 module.exports.single_item = [1];
 module.exports.two_items = [0,1];
+module.exports.practice_list = [3,5,1,7,9,2,6];
 module.exports.sorted_list = [0,0,0,0,0,0,0,0,0,0,1];
 module.exports.inverse_sorted = [10,9,8,7,6,5,4,3,2,1];
 module.exports.power_of_10_1 = randomArray(10);
